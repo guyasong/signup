@@ -1,0 +1,47 @@
+.jumbotron {
+    height: 30rem;
+    width: 30rem;
+    margin: 50px auto;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px 5px #121212;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box {
+    width: 200wh;
+    height: 45vh;
+    border: 1px solid #121212;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 2px;
+}
+
+input {
+    margin-left: 60px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgba(223, 201, 201, 0.404);
+    width: 300wh;
+}
+
+.btn {
+    margin-left: 60px; 
+}
+
+i {
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .jumbotron {
+        width: 100%;
+    }
+}
